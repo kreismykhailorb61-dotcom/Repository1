@@ -7,15 +7,14 @@
 #define Faculty "RTF"
 #define University "Igor Sikorsky KPI"
 
-int main()
-{
+int main(){
+
 int option;
 double x, y;
-printf("X:");
-while (scanf("%lf", &x) != 1) {
-        while (getchar() != '\n'); // Очищення буфера вводу
-        printf("x: ");
-    }
+
+printf("Enter x: ");
+    scanf("%lf", &x);
+
 if (x >= -5.0 && x < 0.0) {
         y = x * x + 2.0 * x + 1.0;
     }
@@ -28,6 +27,10 @@ if (x >= -5.0 && x < 0.0) {
     else {
         y = x / 2.0;
     }
-printf("Result: x = %.4lf ==> y = %.6lf\n", x, y);
+printf("\n***************");
+printf("\nResult: x = %.4lf ==> y = %.6lf\n", x, y);
+printf("***************");
+
+return 0;
 
 }
