@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//--Макровизначення--
 #define Name "Misha"
 #define LastName "Kreys"
 #define GroupName "RB-61"
